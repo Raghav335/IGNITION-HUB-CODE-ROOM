@@ -1,0 +1,17 @@
+Arrays in C are one of the most fundamental and powerful tools for managing data collections. Whether you're storing a list of integers, managing a sequence of characters, or working with complex data structures, arrays provide an efficient way to handle data systematically.
+
+C Array Declaration Syntax
+In C, an array is a collection of elements of the same data type stored in contiguous memory locations. To declare an array, you must specify the data type, the array name, and the size (number of elements the array can hold).
+
+The general syntax for declaring an array is:
+
+data_type array_name[array_size];
+data_type: Specifies the type of elements the array will hold (e.g., int, float, char).
+array_name: The identifier for the array.
+array_size: The number of elements the array can hold (must be a positive integer)
+
+Example:-
+
+.int numbers[5];  // Declares an integer array named 'numbers' with 5 elements
+float prices[10];  // Declares a float array named 'prices' with 10 elements
+char name[20];  // Declares a character array (
