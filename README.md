@@ -2,38 +2,25 @@
 Assignment Repo For Ignition Hub
 
 # Assignment: 1
-#Mathmetical Calculator
+# 🧮 Mathematical Calculator in C
 
- #include<stdio.h>
-int main()
-{
-int a,b,c,ch;
-    printf("1 for add, 2 for sub, 3 for multiplication,4for devide");
-    printf("Enter two numbers");
-    scanf("%d",&a,&b);
-    printf("Enter choice");
-    scanf("%d",&ch);
-    switch(ch)
-    {
-    case 1:
-    c=a+b;
-    printf("Addition=%d",c);
-    break;
-    case 2:
-    c=a-b;
-    printf("sub=%d",c);
-    break;
-    case 3:
-    c=a*b;
-    printf("multiplication=%d",c);
-    break;
-    case 4:
-    c=a/b;
-    printf("division=%d",c);
-    break;
-    default:
-    printf("wrong input");
-    }
-    return 0;
-}
+This is a simple command-line calculator written in C that performs basic mathematical operations like:
+
+- Addition
+- Subtraction
+- Multiplication
+- Division
+
+## 📌 Features
+
+- Simple and clean user interface
+- Switch-case based operation selection
+- Input validation for division by zero
+- Works with integer values
+
+## 🛠️ How to Compile
+
+Make sure you have a C compiler (like `gcc`) installed.
+
+#Made by Raghav Gupta 
 
