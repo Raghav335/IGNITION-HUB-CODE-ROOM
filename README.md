@@ -22,5 +22,5 @@ This is a simple command-line calculator written in C that performs basic mathem
 
 Make sure you have a C compiler (like `gcc`) installed.
 
-##Made by Raghav Gupta 
+Made by Raghav Gupta 
 
