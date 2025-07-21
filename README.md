@@ -2,42 +2,38 @@
 Assignment Repo For Ignition Hub
 
 # Assignment: 1
+#Mathmetical Calculator
 
-### Overview
-
-This repository contains your submission for the Assignment 1 project. The 
-objective of this assignment is to demonstrate your understanding of key concepts or 
-skills learned in class.
-
-### Requirements
-
-* Your code should be written in programming language(s) (C,C++,Python,Javascript).
-* Your solution should be contained within a single file named (Yourname.code) located at the root of this repository.
-
-### Grading Criteria
-
-Your submission will be graded based on the following criteria:
-
-1. Correctness: Does your solution produce the expected output for all test cases?
-2. Code quality: Is your code well-organized, readable, and maintainable?
-3. Adherence to requirements: Does your code meet all the requirements specified in this 
-README file?
-
-### Submission Guidelines
-
-To submit your assignment, simply push your changes to this repository. Make sure that:
-
-1. Your code is properly formatted according to the [ coding style guidelines ].
-2. You have included a brief description of your solution in the comments at the top of 
-the file(s).
-3. Your code can be executed and run without errors.
-
-### Important Notes
-* You must maintain the integrity of this repository. Any unauthorized changes or 
-modifications will result in penalties and potential academic misconduct.
-
-### Acknowledgments
-
-This assignment is an individual effort. Do not share your code with anyone or solicit 
-help from others without prior permission from your instructor.
+ #include<stdio.h>
+int main()
+{
+int a,b,c,ch;
+    printf("1 for add, 2 for sub, 3 for multiplication,4for devide");
+    printf("Enter two numbers");
+    scanf("%d",&a,&b);
+    printf("Enter choice");
+    scanf("%d",&ch);
+    switch(ch)
+    {
+    case 1:
+    c=a+b;
+    printf("Addition=%d",c);
+    break;
+    case 2:
+    c=a-b;
+    printf("sub=%d",c);
+    break;
+    case 3:
+    c=a*b;
+    printf("multiplication=%d",c);
+    break;
+    case 4:
+    c=a/b;
+    printf("division=%d",c);
+    break;
+    default:
+    printf("wrong input");
+    }
+    return 0;
+}
 
