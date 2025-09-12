@@ -1,0 +1,45 @@
+#include<stdio.h>
+#include<conio.h>
+#define MON printf("\n Entered number is 1 hence day is MONDAY");
+#define TUE printf("\n Entered number is 2 hence day is TUESDAY");
+#define WED printf("\n Entered number is 3 hence day is WEDNESDAY");
+#define THU printf("\n Entered number is 4 hence day is THURSDAY");
+#define FRI printf("\n Entered number is 5 hence day is FRIDAY");
+#define SAT printf("\n Entered number is 6 hence day is SATURDAY");
+#define SUN printf("\n Entered number is 7 hence day is SUNDAY");
+#define OTH printf("\n Entered number is out of range");
+
+void main()
+{
+int day;
+clrscr();
+    printf("Enter an integer in the range 1 to 7");
+    scanf("%d",&day);
+    switch(day)
+    {
+    case 1:
+    MON;
+    break;
+    case 2:
+    THU;
+    break;
+    case 3:
+    WED;
+    break;
+    case 4:
+    THU;
+    break;
+    case 5:
+    FRI;
+    break;
+    case 6:
+    SAT;
+    break;
+    case 7:
+    SUN;
+    break;
+    defaut1:
+    OTH;
+    }
+    getch();
+    }
